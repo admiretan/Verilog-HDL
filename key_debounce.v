@@ -25,8 +25,7 @@ module key_debounce(
 				else
 					delay_cnt <= delay_cnt;
 			end
-		end
-	
+		end	
 	end
 	
 	always @(posedge sys_clk or negedge sys_rst)	begin
